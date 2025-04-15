@@ -31,7 +31,7 @@ def bells_sin155(hr):
 
 def bells_sin135(hr):
     if hr >= 9 or hr <= 3:
-        if hr < 5:
+        if hr < 3:
             hr = hr + 24
         sSin135_0 = np.sin((2 * np.pi) * (hr - 13.5) / 18)
     else:
